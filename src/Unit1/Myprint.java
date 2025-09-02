@@ -1,0 +1,11 @@
+package Unit1;
+
+public class Myprint implements printable, Showable {
+    public void print() {
+        System.out.println("Print method is implemented.");
+    }
+
+    public void show() {
+        System.out.println("Show method is implemented.");
+    }
+}
